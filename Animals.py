@@ -29,3 +29,4 @@ class Bear(Animal):
 class Shark(Animal):
     def speak(self):
         print("Chomp Chomp Chomp")
+
