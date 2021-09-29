@@ -20,7 +20,7 @@ elif answer == "yes":
     elif firstAnimal == "lion":
         simba = Lion("Simba", 13, "Yellow", "Lion")
         simba.speak()
-    elif firstAnimal == "bear"
+    elif firstAnimal == "bear":
         smokey = Bear("Smokey", 100, "Brown", "Grizzly Bear")
         smokey.speak()
     else:
