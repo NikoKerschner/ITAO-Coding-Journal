@@ -22,4 +22,4 @@ class Dog(Pet):
 
 Daisy = Pet("Daisy",2,"Yellow", "Goldador")
 
-Daisy.intro()
+
