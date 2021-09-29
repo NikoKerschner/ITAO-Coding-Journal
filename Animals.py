@@ -1,4 +1,4 @@
-class Pet:
+class Animal:
     def __init__(self, name, age, color, breed):
         self.name = name
         self.color = color
@@ -8,18 +8,24 @@ class Pet:
     def intro(self):
         print(f"Hello, my name is {self.name}, I am a {self.color} {self.breed}, and I am {self.age} years old")
 
-class Fish(Pet):
+class Fish(Animal):
     def speak(self):
         print("Blub Blub Blub")
 
-class Lion(Pet):
+class Lion(Animal):
     def speak(self):
         print("ROAR!!!!")
 
-class Dog(Pet):
+class Dog(Animal):
     def speak(self):
         print("Woof!")
 
-Daisy = Pet("Daisy",2,"Yellow", "Goldador")
+Daisy = Animal("Daisy",2,"Yellow", "Goldador")
 
+class Bear(Animal):
+    def speak(self):
+        print("Growllll")
 
+class Shark(Animal):
+    def speak(self):
+        print("Chomp Chomp Chomp")
