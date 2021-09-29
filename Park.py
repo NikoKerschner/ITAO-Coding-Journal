@@ -1,5 +1,3 @@
-from Animals import Pet
-
 class Sidwalk:
     def __init__(self, length, direction, starting_point, end_point, groundType):
         self.length = length
@@ -13,4 +11,10 @@ class Tree:
         self.height = height
         self.age = age
         self.king = kind
+
+class Showcase:
+    def __init__(self, whatAnimal, howBig, partOfPark):
+        self.whatAnimal = whatAnimal
+        self.howBig = howBig
+        self.partOfPark = partOfPark
 
