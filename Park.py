@@ -1,4 +1,4 @@
-class Sidwalk:
+class Sidewalk:
     def __init__(self, length, direction, starting_point, end_point, groundType):
         self.length = length
         self.direction = direction
